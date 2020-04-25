@@ -1,3 +1,6 @@
+@import 'showcase';
+@import 'new-cards';
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -35,6 +38,7 @@ body{
                 li{
                     padding: 10px;
                     a{
+                        padding: 6px;
                         &:hover{
                             border-bottom: 2px solid white;
                         }
