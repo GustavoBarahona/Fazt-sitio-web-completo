@@ -1,0 +1,34 @@
+@import 'mixins';
+
+.cards-banner-one {
+    width: 100%;
+    height: 350px;
+    background-image: url('../img/tech-red.jpg');
+    .content{
+        width: 40%;
+        padding: 90px 0 0 30px;
+        color: #ffffff;
+        //background: red;
+        .btn {
+            @include boton();
+        }
+        h2, p{
+           margin: 10px 0 20px 0; 
+        }
+    }
+}
+
+.cards-banner-two {
+    width: 100%;
+    height: 350px;
+    background-image: url('../img/image-five.jpg');
+    .content{
+        width: 50%;
+        padding: 100px 0 0 30px;
+        color: #ffffff;
+        //background: red;
+        .btn {
+            @include boton();
+        }
+    }
+}

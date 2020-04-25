@@ -1,0 +1,20 @@
+.footer-links{
+    background: #2f3640;
+    color: #616161;
+    font-size: 12px;
+    padding: 35px 0;
+    .footer-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        justify-content: center;
+        align-items: flex-start;
+        //background: red;
+        ul{
+            margin: 0 auto;
+            li{
+                line-height: 2.8;
+            }
+        }
+    }
+}
